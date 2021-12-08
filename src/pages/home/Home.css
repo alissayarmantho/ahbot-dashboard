@@ -1,0 +1,26 @@
+.main-container {
+  width: 100%;
+  padding: 2rem;
+  height: 100%;
+}
+
+.faded-sun {
+  /* Preserve aspet ratio */
+  min-width: 10%;
+  min-height: 10%;
+}
+
+@media only screen and (max-width: 768px) {
+  .faded-sun {
+    display: none;
+  }
+  .header {
+    text-align: center;
+    justify-content: center;
+  }
+}
+s @media only screen and (max-width: 1000px) and (min-width: 768px) {
+  .header {
+    margin-top: 4rem;
+  }
+}

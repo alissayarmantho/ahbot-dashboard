@@ -1,0 +1,28 @@
+.navBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  background-color: rgba(224, 243, 255, var(--tw-bg-opacity));
+}
+
+.logOutButton {
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+}
+
+.evenSelected {
+  background-color: rgba(24, 160, 251, var(--tw-bg-opacity));
+}
+
+.oddSelected {
+  background-color: rgba(156, 163, 175, var(--tw-bg-opacity));
+}
+
+@media only screen and (max-width: 767px) {
+  .logOutButton {
+    display: none;
+  }
+}

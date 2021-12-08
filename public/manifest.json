@@ -3,7 +3,7 @@
   "name": "Ah Bot Dashboard",
   "icons": [
     {
-      "src": "ShBotIcon.png",
+      "src": "AhBotIcon.png",
       "type": "image/png",
       "sizes": "512x512"
     }

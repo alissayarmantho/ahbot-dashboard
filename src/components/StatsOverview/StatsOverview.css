@@ -1,0 +1,12 @@
+.overview {
+  flex-shrink: 0;
+  overflow-x: auto;
+}
+
+.overview::-webkit-scrollbar {
+  display: none;
+}
+
+.overviewIcon {
+  flex-shrink: 0;
+}
